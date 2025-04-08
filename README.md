@@ -1,56 +1,61 @@
+Here’s your **Wine Quality Prediction** project README reformatted in clean, structured Markdown for a GitHub repository:
+
+---
+
 # 🍷 Wine Quality Prediction
 
 ## 📌 Project Overview
-The *Wine Quality Prediction* project aims to analyze the quality of wine (both red and white) based on its chemical composition using *Machine Learning models. This project includes **data preprocessing, model training, evaluation, and visualization* in *Power BI*.
 
-### 👨‍💻 Team Members:
-- *Kirtan Soni* – Enrollment No: 12202040501032  
-- *Harry Mehta* – Enrollment No: 12202040501025
+The **Wine Quality Prediction** project aims to analyze the quality of wine (both red and white) based on its chemical composition using **Machine Learning models**. It includes **data preprocessing, model training, evaluation, and Power BI visualizations**.
+
+### 👨‍💻 Team Members
+- **Kirtan Soni** – Enrollment No: `12202040501032` [Github](https://github.com/sonikirtan110/Wine-Quality-Analysis/tree/main)
+- **Harry Mehta** – Enrollment No: `12202040501025`
 
 ---
 
 ## 📂 Folder Structure
 
-Wine-Quality-Prediction
-├── data                  # Contains datasets (CSV files)
-│   ├── wine-quality-white-and-red.csv
-│   ├── images.csv
-│
-├── notebooks             # Jupyter/Colab notebooks for data exploration & model training
-│   ├── WineQuality.ipynb
-│
-├── src                   # Python scripts for preprocessing & model training
-│   ├── app.py
-│       └── templates
-│           └── index.html
-│
-├── models                # Saved trained models
-│   ├── wine_quality_pipeline.pkl
-│   ├── best_wine_model.pkl
-│
-├── docs                  # Project documentation
-│   ├── report.pdf
-│
-├── Images                # Power BI & UI screenshots
+```
+Wine-Quality-Prediction/
+├── Images/                # Power BI & UI screenshots
 │   ├── index.png
 │   ├── overview.png
 │   ├── analysis.png
 │   ├── html_ui.png
 │
-├── README.md             # Project description
-├── requirements.txt      # Required Python libraries
-├── LICENSE               # Open-source license
-
-
-
+├── data/                  # Datasets (CSV files)
+│   ├── wine-quality-white-and-red.csv
+│   ├── images.csv
+│
+├── docs/                  # Project documentation
+│   ├── report.pdf
+│
+├── models/                # Saved ML models
+│   ├── wine_quality_pipeline.pkl
+│   ├── best_wine_model.pkl
+│
+├── notebooks/             # Jupyter notebooks
+│   ├── WineQuality.ipynb
+│
+├── src/                   # Source code
+│   ├── app.py
+│   └── templates/
+│       └── index.html
+│
+├── LICENSE
+├── README.md
+├── requirements.txt
+```
 
 ---
 
 ## 📊 Dataset Information
-- *Dataset Source:* [Kaggle - Wine Quality Dataset](https://www.kaggle.com/datasets/ruthgn/wine-quality-data-set-red-white-wine/data)
-- *Data Description:* Contains physicochemical tests of *red and white wine samples* along with quality ratings.
-- *Target Variable:* quality (ranges from 0-10, representing wine quality)
-- *Features:*
+
+- **Source:** [Kaggle - Wine Quality Dataset](https://www.kaggle.com/datasets/ruthgn/wine-quality-data-set-red-white-wine/data)  
+- **Description:** Physicochemical test results for red and white wines along with quality ratings.
+- **Target Variable:** `quality` (scale: 0–10)
+- **Features:**
   - fixed acidity
   - volatile acidity
   - citric acid
@@ -66,178 +71,168 @@ Wine-Quality-Prediction
 
 ---
 
-## 📌 Implementation Steps
-### *1️⃣ Data Preprocessing*
-- *Handling Missing Values* (if any)
-- *Feature Scaling* using StandardScaler
-- *Splitting Data* into training and testing sets
-- *Encoding Target Variable* (Converting into classification problem)
+## ⚙️ Implementation Steps
 
-### *2️⃣ Model Training*
-We implemented *5 ML models*:
-- *Random Forest* 🌳
-- *K-Nearest Neighbors (KNN)* 🔍
-- *Decision Tree* 🌿
-- *Gradient Boosting* 📈
-- *Support Vector Classifier (SVC)* 🏹
+### 1️⃣ Data Preprocessing
+- Handle missing values
+- Feature scaling (using `StandardScaler`)
+- Train-test split
+- Encode the target variable (as a classification problem)
 
-### *3️⃣ Model Evaluation*
-- *Accuracy Score*
-- *Precision, Recall, and F1-Score*
-- *Power BI Visualizations* 📊
+### 2️⃣ Model Training
+Five ML models were implemented:
+- 🌳 Random Forest  
+- 🔍 K-Nearest Neighbors (KNN)  
+- 🌿 Decision Tree  
+- 📈 Gradient Boosting  
+- 🏹 Support Vector Classifier (SVC)
 
-### *4️⃣ Power BI Dashboard*
-- *Index Page:* Shows dataset summary & wine distribution
-- *Overview Page:* Data preprocessing & feature importance
-- *Analysis Page:* Model performance comparison
+### 3️⃣ Model Evaluation
+- Accuracy
+- Precision, Recall, F1-Score
+- Power BI performance visualizations
 
-### *Live Preview*
-- *PowerBi Live Preview:* [Click Here](https://app.powerbi.com/view?r=eyJrIjoiOTIwYWYyY2MtOTZiYS00MWUxLWI3NzgtMmFkYTFjMmZmMDZlIiwidCI6ImRhYTU5MmNhLWRlN2ItNGM1NC04ODM2LTkxYTY2OTBmZTE5NyJ9&pageName=dd74d0105ec518cb7330)
-- *UI Live Preview:* [Redirect To Render](https://wine-quality-analysis-38rf.onrender.com)
+### 4️⃣ Power BI Dashboard
+- **Index Page:** Dataset summary & wine distribution
+- **Overview Page:** Preprocessing steps & feature importance
+- **Analysis Page:** Model performance comparison
 
 ---
 
-## 🔥 Power BI Dashboard (Screenshots)
+## 🌐 Live Preview
 
-### Index Page
+- 🔗 **Power BI Preview:** [View Dashboard](https://app.powerbi.com/view?r=eyJrIjoiOTIwYWYyY2MtOTZiYS00MWUxLWI3NzgtMmFkYTFjMmZmMDZlIiwidCI6ImRhYTU5MmNhLWRlN2ItNGM1NC04ODM2LTkxYTY2OTBmZTE5NyJ9&pageName=dd74d0105ec518cb7330)  
+- 🚀 **UI Preview:** [Render App](https://wine-quality-analysis-38rf.onrender.com)
+
+---
+
+## 🖼️ Power BI Dashboard Screenshots
+
+### 🧾 Index Page  
 ![Index Page](./Images/index.png)
 
-### Overview Page
+### 🧪 Overview Page  
 ![Overview Page](./Images/overview.png)
 
-### Analysis Page
+### 📉 Analysis Page  
 ![Analysis Page](./Images/analysis.png)
 
-### HTML UI
+### 🌐 HTML UI  
 ![HTML UI](./Images/html_ui.png)
 
 ---
 
-## 📊 Dashboard Sections
+## 📋 Dashboard Section Details
 
-### 📋 Index Page
-The *Index Page* provides an overall summary of the wine dataset and distribution, including:
-- Total number of wine samples (both red and white)
-- Distribution of wine quality
-- Summary statistics of key features
-- Correlation between different wine properties
-- Percentage of each wine type in the dataset
+### 🏷️ Index Page
+- Total wine samples (red/white)
+- Quality distribution
+- Feature statistics
+- Property correlation
+- Wine type percentages
 
-This page serves as the entry point to understand the dataset before diving into model details.
+### 🔬 Overview Page
+- Feature engineering
+- Feature importance
+- Distribution across quality
+- Outlier detection
+- Data transformations
 
----
-
-### 🔍 Overview Page
-The *Overview Page* focuses on the data preprocessing steps and feature importance:
-- Feature engineering techniques applied
-- Importance of each feature in predicting wine quality
-- Distribution of features across different quality levels
-- Outlier detection and handling strategies
-- Data transformation methods used
-
-This section helps understand which chemical properties have the most significant impact on wine quality.
-
----
-
-### 📈 Analysis Page
-The *Analysis Page* provides a comprehensive view of model performance:
-- Comparison of accuracy, precision, recall, and F1-score across all models
-- Confusion matrices for each model
-- ROC curves and AUC scores
-- Detailed performance metrics for both red and white wine predictions
-- Model hyperparameters and optimization results
-
-This section helps identify which model performs best for wine quality prediction.
+### 📊 Analysis Page
+- Model comparison (accuracy, precision, recall, F1-score)
+- Confusion matrices
+- ROC/AUC scores
+- Model performance on red vs white wine
+- Hyperparameter tuning results
 
 ---
 
-## 📌 Source Code (src Folder)
+## 💻 Source Code
 
-### app.py
-The app.py file is the web application that serves as the prediction interface. It:
-- Loads the trained machine learning models
-- Exposes API endpoints for wine quality prediction
-- Provides a simple HTML user interface for input and results
-- Handles both red and white wine prediction requests
-- Returns prediction results with confidence scores
-- Includes data validation and error handling
-- Offers documentation via Swagger UI
-
-The application is built with Flask for high performance and easy deployment, making the wine quality prediction model accessible through a web interface or API calls.
+### `src/app.py`
+A Flask-based web app for prediction that:
+- Loads trained models
+- Serves predictions via API
+- Accepts red and white wine input
+- Returns prediction with confidence
+- Includes form UI and validation
+- Supports deployment via Gunicorn
 
 ---
 
-## 🛠 Requirements
-All required Python libraries are listed in requirements.txt.
+## 📦 Requirements
 
+All required libraries are listed in `requirements.txt`.
 
-Flask==2.0.3
-Werkzeug==2.0.3
-gunicorn==20.1.0
-joblib==1.2.0
-numpy==1.23.5
-pandas==1.5.3
-scikit-learn==1.4.2
-matplotlib==3.6.2
+```txt
+Flask==2.0.3  
+Werkzeug==2.0.3  
+gunicorn==20.1.0  
+joblib==1.2.0  
+numpy==1.23.5  
+pandas==1.5.3  
+scikit-learn==1.4.2  
+matplotlib==3.6.2  
 seaborn==0.12.2
+```
 
-
-Install them using:
-
+### ✅ Install via:
+```bash
 pip install -r requirements.txt
-
-
----
-
-## 🚀 GitHub Submission Steps
-1. Create a GitHub repository and *push all files*
-2. Write meaningful *commit messages*
-3. Include *README.md, requirements.txt, and LICENSE*
-4. Attach the *Power BI report (PDF/Markdown)*
-5. Share the *GitHub repository link* before the deadline.
+```
 
 ---
 
-## 🔄 How to Clone This Repository
-To clone this repository, follow these steps:
+## 🚀 Deployment Instructions
 
-1. *Open a Terminal or Command Prompt.*
-2. *Run the Clone Command:*
-   bash
-   git clone https://github.com/<your-username>/Wine-Quality-Prediction.git
-   
-   Replace <your-username> with your actual GitHub username.
-3. *Navigate to the Project Directory:*
-   bash
-   cd Wine-Quality-Prediction
-   
-4. *Install the Required Dependencies:*
-   bash
-   pip install -r requirements.txt
-   
-5. *Run the Application:*
-   For local testing:
-   bash
-   python src/app.py
-   
-   For deployment using Gunicorn:
-   bash
-   gunicorn --bind 0.0.0.0:$PORT src.app:app
-   
+### Clone the Repo
+```bash
+git clone https://github.com/<your-username>/Wine-Quality-Prediction.git
+cd Wine-Quality-Prediction
+```
+
+### Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### Run Locally
+```bash
+python src/app.py
+```
+
+### Run with Gunicorn (for deployment)
+```bash
+gunicorn --bind 0.0.0.0:$PORT src.app:app
+```
 
 ---
 
-## 📌 Contact Information
+## 📁 Submission Checklist
+
+1. Push all files to GitHub repo  
+2. Write meaningful commit messages  
+3. Include `README.md`, `requirements.txt`, and `LICENSE`  
+4. Attach Power BI report (PDF or Markdown)  
+5. Submit GitHub repo link
+
+---
+
+## 📫 Contact
+
 📧 Email: [mehtaharry39@gmail.com](mailto:mehtaharry39@gmail.com)  
-🔗 LinkedIn: [Harry Mehta](https://www.linkedin.com/in/harry-mehta-370963318?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
+🔗 LinkedIn: [Harry Mehta](https://www.linkedin.com/in/harry-mehta-370963318)
 
 ---
 
 ## 📜 License
-This project is open-source under the *Apache License*.
+
+This project is open-source under the **Apache License**.
 
 ---
 
-✅ *If you found this useful, give it a ⭐ on GitHub!* 🚀
+⭐️ *If you found this useful, give it a star on GitHub!* 🚀
 
 ---
+
+Let me know if you want this turned into a downloadable `README.md` file or if you want help setting up the GitHub repo!
