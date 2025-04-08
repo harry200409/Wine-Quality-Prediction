@@ -1,5 +1,3 @@
-Here’s your **Wine Quality Prediction** project README reformatted in clean, structured Markdown for a GitHub repository:
-
 ---
 
 # 🍷 Wine Quality Prediction
@@ -234,5 +232,3 @@ This project is open-source under the **Apache License**.
 ⭐️ *If you found this useful, give it a star on GitHub!* 🚀
 
 ---
-
-Let me know if you want this turned into a downloadable `README.md` file or if you want help setting up the GitHub repo!
